@@ -1,12 +1,12 @@
 export type user = {
   id: number,
   name: string,
-  cpf: number,  
-  birth: number,
+  cpf: string,  
+  birth: string,
   balance: number,
   extract:{
   value: number,
-  date: number,
+  date: string,
   description: string 
 }
 }
